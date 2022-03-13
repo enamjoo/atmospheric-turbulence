@@ -8,16 +8,17 @@ Arxiv:
 https://arxiv.org/abs/2107.11627
 
 
+### Disclaimer 
 The soruce of the oiringal repository: https://github.itap.purdue.edu/StanleyChanGroup/TurbulenceSim_P2S
 
 I've just added two iPython notebooks:
 - `demo_db.ipynb` applies the atmospheric turbulence with strength of 1 to 5 to the entire database of your choice
 - `gaussian_blur.ipynb` applies Gaussian blur with Sigma between 1 and 5 to lfw and agedb database
 
-* Pleaase download data from [GDrive](https://drive.google.com/file/d/1HBGwyTFnl4Bt4hl5BpLE3t__J84R72TX/view?usp=sharing) offered by [MagFace](https://github.com/IrvingMeng/MagFace).
+Please download data from [GDrive](https://drive.google.com/file/d/1HBGwyTFnl4Bt4hl5BpLE3t__J84R72TX/view?usp=sharing) offered by [MagFace](https://github.com/IrvingMeng/MagFace) and put them in the `images` folder.
 
 
-How to use: 
+### How to use: 
   - Check the demo.py file
   - The generation of correlation matrix for point spread functions is slow. You can download the correlation matrices prepared by us and put them under the data folder. The correlation matrices are available at: 
   
@@ -29,6 +30,7 @@ The code is tested with the following environment:
   - Numpy	    1.19.2
   - Scipy       1.6.0
   - Matplotlib  3.3.6
+Use the `pip install -r requirements.txt` in an environment with Python 3.6 to install the dependencies
 
 If you find our work helpful in your research, please consider cite our paper
 
